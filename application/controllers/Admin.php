@@ -49,7 +49,7 @@
         // Customer 
         public function customer() {
             $this->load->model('m_crud');
-            $data['customer'] = $this->m_crud->view('customer')->result();
+            $data['customer'] = $this->m_crud->view('user')->result();
 
             $this->load->view('admin/customer', $data);
         }
@@ -206,7 +206,7 @@
 
             $where = array('id_customer' => $id);
 
-            $this->m_crud->update($where, $data, 'customer');
+            $this->m_crud->update($where, $data, 'user');
 			redirect('admin/customer');
         }
         // Edit Status Nota

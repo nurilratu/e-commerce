@@ -9,7 +9,7 @@
                 $password = $_POST['password'];
                 
                 $this->db->select('*');
-                $this->db->from('customer');
+                $this->db->from('user');
                 /* @var $username type */
                 $this->db->where(array('username' => $username, 'password' => $password));
                 $query = $this->db->get();
@@ -20,6 +20,7 @@
                 
                     $_SESSION['customer_logged'] = TRUE;
                     $_SESSION['customer_id'] = $customer->id_customer;
+                    $_SESSION['customer_nama'] = $customer->username;
                     
                     redirect("user/dashboard", "refresh");
                 }else{
@@ -36,7 +37,6 @@
             if(!$_SESSION['customer_logged']){
                 $this->session->set_flashdata("error", "Harus login terlebih dahulu");                
             }
-
             $this->load->view('user/dashboard');            
         }
         // Logout

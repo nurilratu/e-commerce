@@ -137,7 +137,7 @@
 <div class="head-bread">
             <div class="container">
                 <ol class="breadcrumb">
-                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/user/dashboard">Home</a></li>
                     <li class="active">Sport</li>
                 </ol>
             </div>
@@ -147,7 +147,7 @@
 			  <ul class="thumbnails">
 				<li class="span3 detail-box">
 				  <div class="thumbnail">
-					<a  href="detailsport.html"><img src="themes/images/products/7.jpg" alt=""/></a>
+					<a  href="<?php echo base_url(); ?>index.php/user/detail"><img src="<?php echo base_url(); ?>assets/themes/images/products/7.jpg" alt=""/></a>
 					<div class="caption">
 					  <h5>Product name</h5>
                       <p> 
@@ -159,7 +159,7 @@
 				</li>
 				<li class="span3 detail-box">
 				  <div class="thumbnail">
-					<a  href="detailsport.html"><img src="themes/images/products/8.jpg" alt=""/></a>
+					<a  href="<?php echo base_url(); ?>index.php/user/dashboard"><img src="<?php echo base_url(); ?>assets/themes/images/products/8.jpg" alt=""/></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <p> 
@@ -171,7 +171,7 @@
 				</li>
                <li class="span3 detail-box">
 				  <div class="thumbnail">
-					<a  href="detailsport.html"><img src="themes/images/products/9.jpg" alt=""/></a>
+					<a  href="<?php echo base_url(); ?>index.php/user/detail"><img src="<?php echo base_url(); ?>assets/themes/images/products/9.jpg" alt=""/></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <p> 
@@ -183,7 +183,7 @@
 				</li>
 				<li class="span3 detail-box">
 				  <div class="thumbnail">
-					<a  href="detailsport.html"><img src="themes/images/products/10.jpg" alt=""/></a>
+					<a  href="<?php echo base_url(); ?>index.php/user/detail"><img src="<?php echo base_url(); ?>assets/themes/images/products/10.jpg" alt=""/></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <p> 
@@ -195,7 +195,7 @@
 				</li>
 				<li class="span3 detail-box">
 				  <div class="thumbnail">
-					<a  href="detailsport.html"><img src="themes/images/products/11.jpg" alt=""/></a>
+					<a  href="<?php echo base_url(); ?>index.php/user/dashboard"><img src="<?php echo base_url(); ?>assets/themes/images/products/11.jpg" alt=""/></a>
 					<div class="caption">
 					  <h5>Product name</h5>
 					  <p> 

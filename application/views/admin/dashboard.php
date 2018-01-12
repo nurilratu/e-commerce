@@ -10,7 +10,7 @@
     <!--  Material Dashboard CSS    -->
     <link href="<?php echo base_url(); ?>assets/css/material-dashboard.css?v=1.2.0" rel="stylesheet" />
     <!--     Fonts and icons     -->
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons' rel='stylesheet' type='text/css'>
 
 </head>
@@ -18,14 +18,14 @@
         <div class="wrapper">
         <div class="sidebar" data-color="purple" data-image="<?php echo base_url(); ?>assets/img/sidebar-1.jpg">
             <div class="logo">
-                <a href="<?php echo base_url(); ?>index.php/admin/admin_toko" class="simple-text">
+                <a href="<?php echo base_url(); ?>admin/admin_toko" class="simple-text">
                     Admin Flad.eo
                 </a>
             </div>
             <div class="sidebar-wrapper">
                 <ul class="nav">
                     <li class="active">
-                        <a href="<?php echo base_url(); ?>index.php/admin/dashboard">
+                        <a href="<?php echo base_url(); ?>/admin/dashboard">
                             <i class="material-icons">dashboard</i>
                             <p>Dashboard</p>
                         </a>
